@@ -3,14 +3,39 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MatIconModule } from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './header/header.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
+import { ContentHolderComponent } from './content-holder/content-holder.component';
+import { HomeComponent } from './home/home.component';
+import { TrendingComponent } from './trending/trending.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { LibraryComponent } from './library/library.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    SideBarComponent,
+    ContentHolderComponent,
+    HomeComponent,
+    TrendingComponent,
+    SubscriptionComponent,
+    LibraryComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    RouterModule.forRoot([
+      { path: "home", component: HomeComponent },
+      { path: "trending", component: TrendingComponent },
+      { path: "subscription", component: SubscriptionComponent },
+      { path: "library", component: LibraryComponent }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
