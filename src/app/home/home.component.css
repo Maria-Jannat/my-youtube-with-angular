@@ -1,70 +1,82 @@
-/* * {
-  background-color: rgba(0, 0, 0, 0.932);
-}
-
-.video-element-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.932);
-}
-
-.yt-video {
-  height: 180px;
-  width: 300px;
-  margin-left: 20pt;
-  margin-top: 20pt;
-}
-
-.video-element-info {
-  display: flex;
-}
-
-.video-name {
-  color: #ffffff;
-  margin-bottom: 0.5em;
-}
-
-.name-record {
-  line-height: 0.5em;
-  color: #aaaaaa;
-} */
-/* 
-.video-element-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  margin-left: 20px;
-} */
-
 * {
-  /* background-color: rgba(0, 0, 0, 0.582); */
-  background-color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(17, 17, 17, 0.61);
 }
 
-.video-card-full {
-  margin-left: 20px;
+.header-bottom {
+  width: 94.5%;
+  height: 55px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #252525;
+  border-top: 1px solid rgba(128, 128, 128, 0.288);
+  border-bottom: 1px solid gray;
+}
+
+.header-bottom-topic {
+  color: white;
+  background-color: #ffffff23;
+  padding: 4pt;
+  border-radius: 15pt;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  margin-left: 8pt;
+  margin-top: auto;
+}
+
+.header-bottom-topic:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.479);
+}
+
+.header-bottom-arrow-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 8pt;
+  padding: 5px;
+  background-color: #ffffff23;
+  border-radius: 50%;
+  color: white;
+  font-size: medium;
+}
+
+/* video content */
+
+/* .video-card-full {
+  padding-top: 5rem;
+  padding-left: 5rem;
 }
 
 .video-content-info {
   display: flex;
+  flex-direction: row;
 }
 
 .channel-info > p {
   line-height: 0.5em;
-  color: #aaaaaa;
+  color: #ffffff;
 }
 
 .channel-info > h4 {
-  color: #ffffff;
-  font-family: Roboto, Ariel, sans-serif;
+  font-weight: 500;
   font-size: 1rem;
   line-height: 2rem;
   max-height: 4rem;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
-  -webkit-line-clamp: 2;
-  letter-spacing: var(--yt-link-letter-spacing, normal);
-  font-weight: 500;
+  color: #ffffff;
 }
+
+.video-element-container {
+  margin-top: 2em;
+
+}
+
+.video {
+  margin-left: 2em;
+  margin-right: 1em;
+
+}
+
+.video-name {
+  margin-top: 0.3rem;
+} */

@@ -1,0 +1,35 @@
+.content-container {
+  background-color: rgba(3, 3, 3, 0.897);
+  /* float: left; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-content {
+  width: 290px;
+  /* background-color: aquamarine; */
+  padding: 3pt;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: -1em;
+}
+
+.video-frame {
+  width: 100%;
+}
+
+.video-content-contents-info {
+  display: flex;
+}
+
+.video-content-contents-info-details > h4 {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.video-content-contents-info-details > p {
+  /* color: #FFFFFF; */
+  margin-top: -1em;
+  line-height: -1em;
+  color: #aaaaaa;
+}

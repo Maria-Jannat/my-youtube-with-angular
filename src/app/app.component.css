@@ -111,15 +111,13 @@
 }
 
 /* header bottom */
-.header-bottom {
+/* .header-bottom {
   width: 94.5%;
   height: 55px;
   float: right;
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* position: sticky;
-  z-index: 100; */
   background-color: #252525;
   border-top: 1px solid rgba(128, 128, 128, 0.288);
   border-bottom: 1px solid gray;
@@ -150,7 +148,7 @@
   border-radius: 50%;
   color: white;
   font-size: medium;
-}
+} */
 
 /* side bar */
 
